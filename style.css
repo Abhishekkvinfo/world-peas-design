@@ -1,0 +1,154 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    
+    
+}
+.container{
+
+
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 10px;
+   
+    justify-content: right;
+    position: relative;
+}
+#logo{
+
+
+    position: absolute;
+    right: 800px;
+    color: rgb(43, 149, 43);
+    font-weight: 500;
+    font-size: larger
+}
+.nav button{
+
+    color: white;
+    background-color: #477320;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 7px;
+}
+.basket h4{
+
+    font-weight: 300;
+    border-bottom: 1px solid gainsboro;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.product{
+
+    
+    background-color:#E5E5E5;
+    margin: 8px;
+    font-size: 9px;
+    border-radius: 8px;
+    width: 500px;
+    height: 70px;
+    position:relative;
+    font-weight:10px;
+    border: 1px solid rgb(206, 206, 206);
+    
+}
+.order{
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    width: 180px;
+    height: 220px;
+    border-radius: 10px;
+    text-align:center ;
+    margin: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    font-size: 10px;
+    
+
+}
+
+
+.product h2{
+
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+.product .price{
+
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    color: green;
+}
+
+
+
+.order ul li {
+
+    list-style: none;
+    margin: 20px;
+    text-align: left;
+    font-size: 10px;
+}
+#black{
+
+    font-weight: 700;
+    
+}
+
+
+.value {
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+.value h4 {
+
+   
+    color:#477320 ;
+    font-size: 10px;
+    
+}
+#summary{
+    margin-top: 10px
+}
+.order button {
+
+    border-style: none;
+    width: 145px;
+    height: 25px;
+    background-color: #477320;
+    color: white;
+    border-radius: 7px;
+    font-size: 10px;
+
+}
+.selector{
+
+    width: 30px;
+    position: absolute;
+    border-style: none;
+    border-radius: 7px;
+    top: 40px;
+    left: 83px;
+    font-size: 12px;
+}
